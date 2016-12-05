@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  background(25);
+  background(10, 10, 10);
 
   var rms = analyzer.getLevel();
 
