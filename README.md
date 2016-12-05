@@ -1,1 +1,1 @@
-# musicchangepeople.github.com
+# musicchangepeople
