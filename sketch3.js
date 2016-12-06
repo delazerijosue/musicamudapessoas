@@ -7,12 +7,12 @@ function preload() {
 
   song = loadSound('ooh-la.mp3');
 
+  azul_20 = loadImage("azul_20.png");
   marina_01 = loadImage("marina_01.jpg");
   marina_02 = loadImage("marina_02.jpg");
   marina_03 = loadImage("marina_03.jpg");
   marina_04 = loadImage("marina_04.jpg");
   marina_05 = loadImage("marina_05.jpg");
-  azul_20 = loadImage("azul_20.png");
 }
 
 function setup() {
