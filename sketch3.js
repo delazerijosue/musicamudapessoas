@@ -29,10 +29,10 @@ function draw() {
 
   var rms = analyzer.getLevel();
 
-  image(azul_20, 1-rms*20, 0);
   image(marina_01, 1+rms*20, 0);
   image(marina_02, 1-rms*30, 76);
   image(marina_03, 1+rms*20, 152);
   image(marina_04, 1-rms*40, 228);
   image(marina_05, 1+rms*15, 304);
+  image(azul_20, 1-rms*20, 0);
 }
