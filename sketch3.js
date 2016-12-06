@@ -1,4 +1,4 @@
-var marina_01, marina_02, marina_03, marina_04, marina_05;
+var marina_01, marina_02, marina_03, marina_04, marina_05, azul_20;
 var amp;
 var song, analyzer;
 
@@ -12,6 +12,7 @@ function preload() {
   marina_03 = loadImage("marina_03.jpg");
   marina_04 = loadImage("marina_04.jpg");
   marina_05 = loadImage("marina_05.jpg");
+  azul_20 = loadImage("azul_20.png);
 }
 
 function setup() {
@@ -28,6 +29,7 @@ function draw() {
 
   var rms = analyzer.getLevel();
 
+  image(azul_20, 1-rms*20, 0);
   image(marina_01, 1+rms*20, 0);
   image(marina_02, 1-rms*30, 76);
   image(marina_03, 1+rms*20, 152);
