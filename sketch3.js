@@ -37,6 +37,6 @@ function draw() {
   image(azul_20, 200+rms*500, 0);
   image(azul_20, 300-rms*400, 76);
   image(azul_20, 150+rms*600, 152);
-  image(azul_20, 400+rms*400, 228);
-  image(azul_20, 300-rms*700, 304);
+  image(azul_20, 350+rms*400, 228);
+  image(azul_20, 280-rms*200, 304);
 }
