@@ -15,7 +15,18 @@ function preload() {
   marina_05 = loadImage("marina_05.png");
 }
 
+function mouseClicked() {
+  if (song.isPlaying()) {
+    song.stop();
+  } else {
+    song.play();
+  }
+}
+
+
 function setup() {
+
+
   song.play();
   createCanvas(720, 380);
 
